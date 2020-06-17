@@ -55,6 +55,7 @@ cotacoesForm.addEventListener('submit', () => {
 
             mainMensage.innerHTML = `${ativoAtual}`
             price.innerHTML = `Preço atual: ${atualPrice}`
+            
     
         }
 
