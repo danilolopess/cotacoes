@@ -43,7 +43,7 @@ cotacoesForm.addEventListener('submit', () => {
     }
 
     //USANDO O FETCH DE CIMA PARA FAZER A PESQUISA
-    fetch(`http://localhost:3000/cotacoes?ativo=${ativoAtual}`).then((response) => {
+    fetch(`/cotacoes?ativo=${ativoAtual}`).then((response) => {
     response.json().then((data) => {
 
         if(data.error){
